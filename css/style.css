@@ -1,0 +1,47 @@
+h1{
+  text-align:center;
+}
+.colorSquare{
+  height:200px;
+  
+  
+  
+}
+.question{
+  padding:5px;
+  border: inset 3px orchid;
+  display: inline-block;
+  
+}
+#rabbitwin{
+  display:none;
+  border: inset 6px tan;
+  padding:10px;
+}
+#otterwin{
+  display:none;
+   border: inset 6px teal;
+  padding:10px;
+}#catwin{
+  display:none;
+   border: inset 6px yellow;
+  padding:10px;
+}#frogwin{
+  display:none;
+   border: inset 6px yellowgreen;
+  padding:10px;
+}
+#tie{
+  display:none;
+   border: inset 6px skyblue;
+  padding:10px;
+}
+.winner{
+  text-weight:bold;
+}
+button{
+  margin:20px;
+}
+.size{
+  width:250px;
+}

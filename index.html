@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Test Quiz</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h1>Random Quiz</h1>
+<p class='question'>Pick a color:</p>
+<form id='question1'>
+  <label for='rabbit1'><input type='radio' name='color' value='rabbit' id='rabbit1' ><img class="colorSquare" src=https://www.androidcentral.com/sites/androidcentral.com/files/styles/w550h500/public/wallpapers/blue-square-tiles-ebd.jpg?itok=p6J0DUCA/></label>
+  <label for='otter1'><input type='radio' name='color' value='otter' id='otter1'><img class='colorSquare' src='http://www.nigeltomm.com/images/red_square_nigel_tomm_m.jpg'/></label>
+  <label for="cat1"><input type='radio'name='color' value='cat' id='cat1'><img class='colorSquare' src='http://pre14.deviantart.net/26f0/th/pre/i/2010/354/7/b/purple_square_rose_ii_by_artman225-d359jl0.jpg'/></label>
+  <label for="frog1"><input type='radio'name='color' value='frog' id='frog1'><img class='colorSquare' src='http://images.fanpop.com/images/image_uploads/Green-square-green-532521_300_300.jpg'/></label><br>
+<p class='question'>Pick a candy:</p><br>
+
+  <label for='rabbit2'><input type='radio' name='candy' value='rabbit' id='rabbit2' ><img class="colorSquare" src='http://data.whicdn.com/images/109586259/large.jpg'/></label>
+  <label for='otter2'><input type='radio' name='candy' value='otter' id='otter2'><img class='colorSquare' src='http://www.thecompleteperformer.com/blog/wp-content/uploads/2012/09/3302.jpg'/></label>
+  <label for="cat2"><input type='radio'name='candy' value='cat' id='cat2'><img class='colorSquare' src='http://www.foodsafetynews.com/files/2012/10/CandyPileMain.jpg'/></label>
+  <label for="frog2"><input type='radio'name='candy' value='frog' id='frog2'><img class='colorSquare' src='https://upload.wikimedia.org/wikipedia/commons/5/56/Candy-Corn.jpg'/></label><br>
+<p class='question'>Pick a pony:</p><br>
+
+  <label for='rabbit3'><input type='radio' name='pony' value='rabbit' id='rabbit3' ><img class="colorSquare" src='http://cartoonbros.com/wp-content/uploads/2016/04/My-Little-Pony-8.png'/></label>
+  <label for='otter3'><input type='radio' name='pony' value='otter' id='otter3'><img class='colorSquare' src='http://images1.wikia.nocookie.net/__cb20120515192820/mylittleponeyfredshipismagic/images/b/ba/Apple-Jack-my-little-pony-friendship-is-magic-27781668-815-979.png'/></label>
+  <label for="cat3"><input type='radio'name='pony' value='cat' id='cat3'><img class='colorSquare' src='http://cartoonbros.com/wp-content/uploads/2016/04/My-Little-Pony-10.png'/></label>
+  <label for="frog3"><input type='radio'name='pony' value='frog' id='frog3'><img class='colorSquare' src='http://www.queen-of-theme-party-games.com/images/rainbowdash-pony-game.png'/></label><br>
+<p class='question'>Pick some glitter:</p><br> <label for='rabbit4'><input type='radio' name='glitter' value='rabbit' id='rabbit4' ><img class="colorSquare size" src='http://onthegolinens.com/media/catalog/large/glitz-mesh-sequins/rainbow-white.jpg'/></label>
+  <label for='otter4'><input type='radio' name='glitter' value='otter' id='otter4'><img class='colorSquare size' src='http://lovelyindeed.com/wp-content/uploads/2015/03/yeahglitterdesktop.jpg'/></label>
+  <label for="cat4"><input type='radio'name='glitter' value='cat' id='cat4'><img class='colorSquare' src='https://img0.etsystatic.com/014/0/6705268/il_fullxfull.433635402_dg1k.jpg'/></label>
+  <label for="frog4"><input type='radio'name='glitter' value='frog' id='frog4'><img class='colorSquare size' src='http://cdn.wonderfulengineering.com/wp-content/uploads/2016/02/glitter-wallpaper-6.jpg'/></label><br>
+<p class='question'>Pick a flower</p><br> <label for='rabbit5'><input type='radio' name='flower' value='rabbit' id='rabbit5' ><img class="colorSquare" src='https://s-media-cache-ak0.pinimg.com/236x/b3/e1/97/b3e19765b8e71866d2e11e765ac0469a.jpg'/></label>
+  <label for='otter5'><input type='radio' name='flower' value='otter' id='otter5'><img class='colorSquare' src='https://s-media-cache-ak0.pinimg.com/564x/2a/01/a3/2a01a357a06c7f5f9b783c5ea75e98fb.jpg'/></label>
+  <label for="cat5"><input type='radio'name='flower' value='cat' id='cat5'><img class='colorSquare' src='http://plusquotes.com/images/quotes-img/a-flower-for-you.jpg'/></label>
+  <label for="frog5"><input type='radio'name='flower' value='frog' id='frog5'><img class='colorSquare' src='http://jobstr.com/user_images/international-flower-buyer-4426.jpg'/></label></form>
+  <br>
+
+
+<button onclick="myFunction()">Calculate my results</button> <button onclick="reset()">Reset Quiz</button><button onclick="show_all()">Show All Results</button>
+
+<p id="demo"></p>
+<br>
+
+<div class="winner"><div id="rabbitwin"><p>You are a sassy rabbit in a winter hat!</p><img src="http://www.bopvets.co.nz/wp-content/uploads/2016/03/Rabbit-in-Hat.jpg" height="300px"/>  </div><div id="otterwin"><p>You are a high-fiving otter! </p><img src="http://cdn.pcwallart.com/images/sea-otter-wallpaper-3.jpg" height="300px"/>  </div>
+</div><div id="catwin"><p>You are a cat that is not excited about being a bananna! </p><img src="http://www.catshaming.co.uk/wp-content/uploads/2014/11/28qXe1_0.jpg" height="300px"/>  </div>
+<div id="frogwin"><p>You are a crazy-faced frog! </p><img src="http://pix.avaxnews.com/avaxnews/2b/26/0002262b_medium.jpeg" height="300px"/>  </div>
+<div id="tie"><p>You are an indecisive amoeba! </p><img src="http://www.microscopy-uk.org.uk/mag/imgsep01/amoebaproteus450.jpg" height="300px"/>  </div>
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
